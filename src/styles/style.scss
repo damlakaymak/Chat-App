@@ -187,7 +187,15 @@ border-radius: 5px;
   color: black;
   display: flex;
   align-items: center;
-  gap: 5px;
+ gap: 5px;
+
+ .user-info{
+
+  display: flex;
+  align-items: center;
+  gap: 5px
+  ;
+ 
 
   img{
 
@@ -199,6 +207,7 @@ border-radius: 5px;
 
     font-weight: bold;
   }
+}
 }
 
 .msg-user{
@@ -215,4 +224,13 @@ border-radius: 7px 7px 0 7px;
   display: grid;
   place-items: center;
   color: gray;
+}
+
+ .msg-text{
+
+
+color: white;
+  border-radius: 7px 7px 0 7px;
+  padding: 7px;
+   background-color: #4D4C7D;   border-radius: 7px 7px 0 7px;
 }
